@@ -34,6 +34,24 @@ Grâce à l'utilisation de templates C++, la même base de code gère de manièr
 
 ---
 
+### 🔄 UIEncoderComponent (v2.0.0)
+Classe de base abstraite pour les interfaces utilisateur contrôlées par encodeur rotatif sur microcontrôleurs.
+
+Conçue pour les projets embarqués (ESP32, STM32, Arduino…) où l'interaction se fait via un encodeur rotatif (tourner + cliquer) plutôt qu'un écran tactile. Elle s'appuie sur la bibliothèque [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) pour le rendu graphique.
+
+* **Fonctionnalités :** 
+- **Modèle de focus** : un seul composant actif à la fois, recevant les événements encodeur
+- **Dirty flag** : redessin conditionnel — seuls les composants modifiés sont redessinés
+- **Événements encodeur** : rotation (`handleEncoder`), clic court (`handleClick`), appui long (`handleLongPress`)
+- **Activation/désactivation** : `enable()` / `disable()`
+- **Géométrie** : `contains()`, `intersects()`, `setRect()`, `setPosition()`
+- **Extensible** : une seule méthode obligatoire à implémenter — `drawInternal()`
+
+* **Licence :** MIT.
+* [Voir le code sur GitHub](https://github.com/Aminehammou/UIEncoderComponent) <!-- Ajoutez votre lien ici -->
+
+---
+
 ## 🏗 Projets en Cours
 
 ### 🏭 SuperPlast-1
