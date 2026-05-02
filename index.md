@@ -19,7 +19,7 @@ Une bibliothèque avancée pour la gestion d'encodeurs rotatifs quadrature, opti
 
 * **Points forts :** Accélération configurable, détection de clics (simple, double, long) et machine à états anti-rebond intégrée.
 * **Licence :** MIT.
-* [Voir le code sur GitHub](#) <!-- Ajoutez votre lien ici -->
+* [https://github.com/Aminehammou/EncodeurRotatif](#) <!-- Ajoutez votre lien ici -->
 
 ---
 
