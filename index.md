@@ -19,7 +19,7 @@ Une bibliothèque avancée pour la gestion d'encodeurs rotatifs quadrature, opti
 
 * **Points forts :** Accélération configurable, détection de clics (simple, double, long) et machine à états anti-rebond intégrée.
 * **Licence :** MIT.
-* [https://github.com/Aminehammou/EncodeurRotatif](#) <!-- Ajoutez votre lien ici -->
+* [Voir le code sur GitHub](#EncodeurRotatif) <!-- Ajoutez votre lien ici -->
 
 ---
 
@@ -36,5 +36,5 @@ Expérimentation autour de **CasaOS** et **ZimaOS** pour la gestion de serveurs 
 ---
 
 ## 📬 Me contacter
-* **GitHub :** [https://github.com/Aminehammou](https://github.com/votre-pseudo)
+* **GitHub :** [@Aminehammou](https://github.com/Aminehammou)
 * **Localisation :** Hassi Bounif, Algérie
